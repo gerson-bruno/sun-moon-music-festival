@@ -9,7 +9,7 @@ Uma Landing Page moderna e responsiva para um festival de música indie fictíci
 ## ✨ Demonstração
 O SunMoon Festival combina uma estética "Solar e Lunar" com elementos de design moderno como Glassmorphism e animações baseadas no scroll do usuário.
 
-Acesse a página ao vivo: [SunMoon Music Festival](https://gersonbruno.github.io/sun-moon-music-festival/)
+Acesse a página ao vivo: [SunMoon Music Festival](https://gerson-bruno.github.io/sun-moon-music-festival/)
 
 ![Preview do Projeto](./img/preview.png)
 
