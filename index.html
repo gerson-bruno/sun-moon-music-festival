@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SunMoon Music Festival</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="img/logo.png" alt="Logo SunMoon" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#lineup">Lineup</a></li>
+        <li><a href="#tickets">Ingressos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="hero" class="hero">
+    <div class="hero-content fade-in-up">
+      <h1>
+        <span class="highlight-yellow">Sun</span><span class="highlight-blue">Moon</span>
+      </h1>
+      <p class="subtitle">Indie Music Festival</p>
+      <p class="date">25/07/2026</p>
+      <a href="#tickets" class="btn btn-hero">Garanta seu Ingresso</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="lineup" class="section-container hidden">
+      <h2 class="titulo-sessao">Lineup</h2>
+      <div id="container-bandas" class="flex-bandas"></div>
+    </section>
+
+    <section id="tickets" class="section-container hidden">
+      <h2 class="titulo-sessao">Garanta seu lugar</h2>
+      <div class="moon">
+        <img src="img/moon.png" alt="Moon" class="moon-img" />
+        <div class="tickets">
+          <div class="card-ticket hidden">
+            <h3>Inicial Pass</h3>
+            <p class="preco">R$ 150,00</p>
+            <p>Acesso ao Palco Principal</p>
+            <button class="btn btn-comprar">Comprar Agora</button>
+          </div>
+          <div class="card-ticket destaque hidden" style="transition-delay: 200ms;">
+            <span class="tag">Mais Vendido</span>
+            <h3>Full Pass</h3>
+            <p class="preco">R$ 250,00</p>
+            <p>Acesso ao Palco Principal + Brindes</p>
+            <button class="btn btn-comprar">Comprar Agora</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-container hidden">
+      <h2 class="titulo-sessao">Contato</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Seu nome" required />
+        <input type="email" placeholder="Seu e-mail" required />
+        <input type="tel" placeholder="Seu telefone" required />
+        <textarea placeholder="Sua mensagem" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>SunMoon Music Festival &copy; <span id="year"></span></p>
+      <p>Site fictício, apenas fins de estudo.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
