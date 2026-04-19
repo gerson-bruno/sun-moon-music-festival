@@ -58,5 +58,5 @@ O projeto utiliza as fontes Playfair Display para títulos (trazendo elegância)
 
 
 
-✒️ Autor
-Desenvolvido por Gerson Bruno – Fins de estudo.
+## ✒️ Autor
+Desenvolvido por [Gerson Bruno](https://www.gersonbruno.dev/) – Fins de estudo.
